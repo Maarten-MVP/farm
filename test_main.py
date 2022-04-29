@@ -16,3 +16,4 @@ def test_cow_route():
     response = client.get(url)
     assert response.get_data() == b'MOoooOo!'
     assert response.status_code == 200
+
