@@ -6,7 +6,7 @@ def test_base_route():
     url = '/'
 
     response = client.get(url)
-    assert response.get_data() == b'Hello, world!! (testjen numero 2)'
+    assert response.get_data() == b'Hello, world!!'
     assert response.status_code == 200
 
 def test_cow_route():
